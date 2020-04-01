@@ -1,0 +1,29 @@
+{
+  "name": "crm-sale-pc",
+  "dependencies": {
+    "@zeit/next-sass": "^1.0.1",
+    "antd": "^4.1.0",
+    "dva-no-router": "^1.2.1",
+    "next": "^9.3.3",
+    "node-sass": "^4.13.1",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  },
+  "devDependencies": {},
+  "private": true,
+  "scripts": {
+    "dev": "next",
+    "port": "npm run dev -- -p 8003",
+    "build": "next build",
+    "start": "next start"
+  },
+  "lint-staged": {
+    "*.{js,jsx}": [
+      "eslint --fix",
+      "git add"
+    ]
+  },
+  "engines": {
+    "node": ">=8.0.0"
+  }
+}
